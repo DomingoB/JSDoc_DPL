@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Ejemplo Documentación</title>
+	    <script src="script.js" defer></script>
+	</head>
+	<body>
+	    <h1>Ejemplo de documentación JSDoc al GitHub</h1>
+	    <p>Ejemplo realizado por <strong>Domingo Bermúdez Díaz</strong></p>
+
+	    <label for="nombreInput">Ingresa tu nombre: </label>
+	    <input type="text" id="nombreInput">
+
+	    <br/>
+	    <button onclick="saludarUsuario()">Saludar</button>
+	
+	    <script>
+	        function saludarUsuario() {
+	            var nombre = document.getElementById('nombreInput').value;
+	            saludar(nombre);
+	        }
+	    </script>
+	</body>
+</html>
